@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Gradient Background Generator App</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    </head>
+
+    <body id="body">
+        <div id="main">
+            <div class="container">
+                <li id="right" class="nav-item"><a class="nav-link header-link" href="https://www.linkedin.com/in/smitax21/" target="blank">Coded by Smita</a></li>
+                <li id="left" class="nav-item"><a class="nav-link header-link" href="https://github.com/smitax21/background-colour-generator" target="blank">Git Source Code</a></li>
+
+                <h1>Gradient Background Generator</h1>
+                <div class="colorCodeContainer">
+                    <h3>Color Code</h3>
+                    <span id="nameGradient"></span><br />
+                    <a href="#fav"><button class="btn btn-primary btn-sm addToFavBtn">View Favourites</button></a>
+                    <button id="saveGradient" class="btn btn-primary btn-sm addToFavBtn">Add to Favourites <i class="fa fa-heart-o"></i></button>
+                    <!-- <p id="yourFav" class=""><a class="nav-link" href="#Fav">View Favourites</a></p> -->
+                </div>
+
+                <div class="customizeGradient">
+                    <h3>Customize Gradient</h3>
+                    <input type="color" class="color1" value="#00C9FF" />
+                    <input type="color" class="color2" value="#92FE9D" /><br />
+                    <button id="randomizerBtn" class="btn btn-primary btn-sm">Randomize</button><br />
+                    <br />
+                    <input type="range" min="0" max="360" value="90" class="slider" id="myRange" />
+                    <input type="number" id="customAngle" min="0" max="360" value="90" />
+                </div>
+            </div>
+        </div>
+
+        <div id="fav" class="favContainer">
+            <h3 id="yourFav">Favourite Gradients</h3>
+            <ul id="ul">
+                <!-- <li class="li">
+                    <p class="cssCode">linear-gradient(50deg, #1c8381, #b2046c)</p>
+                    <button class="previewBtn">Preview</button>
+                 </li > -->
+            </ul>
+            <button id="deleteAllBtn" class="btn btn-primary btn-sm"><i class="fa fa-trash"></i> Clear All</button>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

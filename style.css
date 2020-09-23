@@ -1,0 +1,139 @@
+.container {
+    text-align: center;
+    font-family: Raleway;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: linear-gradient(90deg, #00c9ff, #92fe9d);
+}
+
+#right {
+    font-weight: bold;
+    text-align: right;
+    position: fixed;
+    font-size: clamp(8px, 1.5vw, 13px);
+    width: 30%;
+    top: 0;
+    right: 0;
+    padding-top: 5px;
+    list-style: none;
+}
+
+#left {
+    font-weight: bold;
+    text-align: left;
+    position: fixed;
+    font-size: clamp(8px, 1.5vw, 13px);
+    width: 30%;
+    top: 0;
+    left: 0;
+    padding-top: 5px;
+    list-style: none;
+}
+
+h1 {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Pacifico;
+}
+
+h3 {
+    font-family: Pacifico;
+}
+
+.colorCodeContainer {
+    padding-top: 20px;
+}
+
+span {
+    box-shadow: 1px 1px 2px;
+    padding: 6px;
+}
+
+span:hover {
+    box-shadow: 1px 1px 3px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: transparent !important;
+    color: black !important;
+    border-radius: 5px !important;
+    border: 1px solid black !important;
+    padding-top: 3px !important;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 3px !important;
+}
+
+/*#yourFav {
+    text-decoration: underline;
+    ;
+}*/
+
+.addToFavBtn,
+.viewFavBtn {
+    margin-top: 10px;
+}
+
+.customizeGradient {
+    padding-top: 20px;
+}
+
+.color1 {
+    margin-top: 5px;
+}
+
+#randomizerBtn {
+    margin-top: 7px;
+}
+
+#customAngle {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+#fav {
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -40px;
+}
+
+.li {
+    list-style: none;
+    width: 350px;
+    height: 200px;
+    padding: 75px 15px 10px 15px;
+    margin: 10px;
+}
+
+.cssCode:hover {
+    text-decoration: underline;
+}
+
+#deleteAllBtn {
+    margin-bottom: 20px;
+}
+
+a {
+    color: black !important;
+}
+
+.header-link:hover {
+    text-decoration: underline !important;
+}
