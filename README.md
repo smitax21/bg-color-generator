@@ -1,1 +1,1 @@
-Live Preview here - https://bg-generator-app.brieflee.com/
+Live Preview here - https://bg-color-generator.onrender.com
